@@ -12,6 +12,8 @@ services:
             - /client/node_modules
         links:
             - server
+        environment:
+            - CHOKIDAR_USEPOLLING=true
     server:
         container_name: server
         build: ./

@@ -1,8 +1,4 @@
 /node_modules
 package-lock.json
 
-/config/dev.js
-/security/cert.key
-/security/cert.pem
-
 /.vscode

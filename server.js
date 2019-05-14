@@ -5,9 +5,7 @@ const https = require('https');
 const fs = require('fs');
 
 const keys = require('./config/keys');
-const authRoutes = require('./routes/auth');
 const apiRoutes = require('./routes/api');
-require('./services/passport');
 
 const app = express();
 
@@ -24,8 +22,7 @@ mongoose
   .catch(err => console.log(err));
 
 // Use Routes
-app.use('/', authRoutes);
-app.use('/', apiRoutes);
+app.use('/api', apiRoutes);
 app.use('/static', express.static(__dirname + '/static'));
 
 // Serve static assets if in production
