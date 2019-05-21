@@ -3,7 +3,7 @@
 ## Containers
 
 * `client` with React on `https://localhost:3000` route
-* `server` eith Express on `https://localhost:5000` route
+* `server` with Express on `https://localhost:5000` route
 * `mongo` with MongoDB
 * `adminmongo` with AdminMongo on `http://localhost:1234` route
 
