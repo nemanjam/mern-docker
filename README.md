@@ -27,7 +27,7 @@ CRUD Todo app repo is here [seeschweiler/mern-stack-part-04](https://github.com/
 
 Docker tutorial is here [How to create a full stack React/Express/MongoDB app using Docker](https://medium.freecodecamp.org/create-a-fullstack-react-express-mongodb-app-using-docker-c3e3e21c4074).
 
-Dont't be confused there are some changes in the code to make it work. 
+Don't be confused there are some changes in the code to make it work. 
 
 ## Additional notes
 
